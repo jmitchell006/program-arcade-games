@@ -6,20 +6,21 @@
      and punctuation. Please limit the length of each line to 80 characters.
      
   1. Write a line of code that will print your name.
+  print("Chris")
 
   2. How do you enter a comment in a program?
-
+    #
   3. What do the following lines of code output?
      	ALSO: Why do they give a different answer?
      
-     print(2 / 3)
-     print(2 // 3)
+     print(2 / 3) = 0.6666666666666666
+     print(2 // 3) = 0
      
   4. Write a line of code that creates a variable called pi and sets
      	it to an appropriate value.
-
+            pi = 3.141592654
   5. Why does this code not work?
-     
+     because it is a capital "A" not lowercase
      A = 22
      print(a)
      
@@ -29,7 +30,7 @@
      a
      A
      Area
-     AREA
+     *AREA
      area
      area_of_rectangle
      Area_Of_Rectangle
@@ -42,36 +43,37 @@
      Apple
      APPLE
      Apple2
-     1Apple
+     *1Apple
      account number
-     account_number
+     *account_number
      account.number
      accountNumber
-     account#
+     *account#
      pi
      PI
      fred
      Fred
      GreatBigVariable
      greatBigVariable
-     great_big_variable
+     *great_big_variable
      great.big.variable
-     2x
+     *2x
      x2x
-     total%
-     #left
+     *total%
+     *#left
      
   8. Why does this code not work?
-     
+     because "a = 45" has to be last in the code
      print(a)
      a = 45
      
   9. Explain the mistake in this code:
-     
+     theres no print at the end of the code
      pi = float(3.14)
      
  10. This program runs, but the code still could be better. Explain what is
      wrong with the code.
+     - This code doesnt need x = 3.14, it could just have "pi = 3.14" it makes the code smaller
      
      radius = float(input("Radius:"))
      x = 3.14
@@ -80,21 +82,21 @@
      print(area)
      
  11. Explain the mistake in the following code:
-     
+     You dont need the double parentheses 
      x = 4
      y = 5
      a = ((x) * (y))
      print(a)
      
  12. Explain the mistake in the following code:
-     
+     There is no "Int"
      x = 4
      y = 5
      a = 3(x + y)
      print(a)
      
  13. Explain the mistake in the following code:
-     
+     -The float would go infront of the input
      radius = input(float("Enter the radius:"))
      
  14. Do all these print the same value? Which one is better to use and why?
@@ -102,44 +104,47 @@
      print(2/3+4)
      print(2 / 3 + 4)
      print(   2 /    3+    4  )
-     
+     -The first one is best, there is no need for the extra spaces
  15. What is a constant?
+ something that never changes
 
  16. How are variable names for constants different than other variable names?
-
+constant variable names dont change
  17. What is a single quote and what is a double quote?
      Give and label an example of both.
-
+'Hi there'
+"Hi there"
  18. Write a Python program that will use escape codes to print a double-quote
      and a new line using the Window's standard. (Note: I'm asking for the Window's
      standard here. Look it up out of Chapter 1.)
 
  19. Can a Python program print text to the screen using single quotes instead
-     of double quotes?
+     of double quotes? Yes
 
  20. Why does this code not calculate the average?
      
      print(3 + 4 + 5 / 3)
-     
+     because it does 5/3
 
  21. What is an ``operator'' in Python?
-
+any sign used for math equation
  22. What does the following program print out?
      
      x = 3
      x + 1
      print(x)
      
-
+            4
  23. Correct the following code:
      
      user_name = input("Enter your name: )"
      
-
+    user_name = input("Enter your name: ")
  24. Correct the following code:
      
      value = int(input(print("Enter your age")))
      
-
+     value = int(input("Enter your age: "))
+        print(value)
 
      
