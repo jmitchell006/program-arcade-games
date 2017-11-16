@@ -17,13 +17,17 @@
      while x < 10:
          print(x)
          x = x + 2
-     
+         
+        guess: 2, 8
+        ifinite loop of zeros
   2. What does this program print out?
      
      x = 1
      while x < 64:
          print(x)
          x = x * 2
+         guess: 1,2
+         actual: 1,2,4,8,16,32
      
   3. Why is the and x >= 0 not needed?
      
@@ -40,6 +44,8 @@
          if x == "1":
              print("Blast off!")
          x = x - 1
+         
+         x is already  and will never decrease, never making the statement true
      
   5. Fix the following code so it doesn't repeat forever, and keeps asking
      the user until he or she enters a number greater than zero: (2 pts)
@@ -48,6 +54,8 @@
 
      while x <= 0:
          print("Too small. Enter a number greater than zero: ")
+         
+         program prints out 5,4,3,2,1 and 0 on sperate lines becasue 1 in quotes, making a string.
      
   6. Fix the following code:
      
@@ -56,9 +64,15 @@
      while x < 0:
          print(x)
          x - 1
-
      print("Blast-off")
      
+     x=10
+     while x > 0:
+        print(x)
+        x - 1
+        
+        print("Blast-off)
+        
   7. What is wrong with this code? It runs but it has unnecessary code.
      Find all the unneeded code. Also, answer why it is not needed. (1 pt)
      
@@ -66,6 +80,8 @@
      for i in range(10):
          print(i)
          i += 1
+         
+         i is already 0 so there is not point
      
   8. Explain why the values printed for x are so different. (2 pts)
      
@@ -76,7 +92,6 @@
      for j in range(10):
          x += 1
      print(x)
-
      # Sample 2
      x = 0
      for i in range(10):
@@ -85,4 +100,5 @@
              x += 1
      print(x)
      
+     reason is because indentation lines, first one adds one to x 10 times in i then another 10 in j, printing 20, sample 2 adds has i add one, then goes to j to add1 to x 10 more times, then repeats this 10 times
       
